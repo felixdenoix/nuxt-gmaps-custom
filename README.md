@@ -39,23 +39,4 @@
 
 [MIT License](./LICENSE)
 
-Copyright (c) Felix DENOIX <felix.denoix@gmail.com>
-
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/dt/nuxt-gmaps-module.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-gmaps-module
-
-[npm-downloads-src]: https://img.shields.io/npm/v/nuxt-gmaps-module/latest.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-gmaps-module
-
-[circle-ci-src]: https://img.shields.io/circleci/project/github/felixdenoix.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/felixdenoix
-
-[codecov-src]: https://img.shields.io/codecov/c/github/felixdenoix.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/felixdenoix
-
-[david-dm-src]: https://david-dm.org/felixdenoix/status.svg?style=flat-square
-[david-dm-href]: https://david-dm.org/felixdenoix
-
-[standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
-[standard-js-href]: https://standardjs.com
+Copyright (c) Felix DENOIX <felix.denoix@bonjour.agency>
