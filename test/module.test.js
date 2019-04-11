@@ -32,15 +32,17 @@ describe('basic', () => {
     expect(html).toContain('Works!')
   })
 
-  test('Route / exits and google is in window object', async (t) => {
+  test('Route / exits and google is in window object', async () => {
     const context = {}
     const { html } = await nuxt.server.renderRoute('/', context)
     const { window } = new JSDOM(html).window
-    t.is('google' in window, true)
+    // setTimeout(() => {
+    expect(window.google).not.toBeNull()
+    // }, 4000)
   })
 
-  test('$google in accessbile in the global context ', async (t) => {
-    console.log('🌞 nuxt', nuxt)
-    t.not(nuxt, null)
-  })
+  // test('$google in accessbile in the global context ', () => {
+  //   expect(nuxt).not.toBeNull()
+  //   // expect(nuxt.context.$google).not.toBeNull()
+  // })
 })
