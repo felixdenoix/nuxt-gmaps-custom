@@ -1,6 +1,6 @@
 {
   "name": "nuxt-gmaps-module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nuxt module allowing you to inject google maps javascript api to the project",
   "license": "MIT",
   "contributors": [
