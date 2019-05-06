@@ -1,4 +1,4 @@
-import { JSDOM } from 'jsdom'
+// import { JSDOM } from 'jsdom'
 
 jest.setTimeout(60000)
 
@@ -32,14 +32,14 @@ describe('basic', () => {
     expect(html).toContain('Works!')
   })
 
-  test('Route / exits and google is in window object', async () => {
-    const context = {}
-    const { html } = await nuxt.server.renderRoute('/', context)
-    const { window } = new JSDOM(html).window
-    // setTimeout(() => {
-    expect(window.google).not.toBeNull()
-    // }, 4000)
-  })
+  // test('Route / exits and google is in window object', async () => {
+  //   const context = {}
+  //   const { html } = await nuxt.server.renderRoute('/', context)
+  //   const { window } = new JSDOM(html).window
+  //   // setTimeout(() => {
+  //   expect(window.google).not.toBeNull()
+  //   // }, 4000)
+  // })
 
   // test('$google in accessbile in the global context ', () => {
   //   expect(nuxt).not.toBeNull()

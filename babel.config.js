@@ -3,6 +3,8 @@ module.exports = {
     [
       '@babel/preset-env', {
         targets: {
+          node: 'current',
+          ie: '11',
           esmodules: true
         }
       }
