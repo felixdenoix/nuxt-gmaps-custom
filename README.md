@@ -33,4 +33,4 @@
 
 [MIT License](./LICENSE)
 
-Copyright (c) Felix DENOIX <felix.denoix@bonjour.agency>
+Copyright (c) Felix DENOIX <felix.denoix@gmail.com>
